@@ -48,7 +48,7 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 
 # **France — Bordeaux \+ Paris, 4 Nights**
 
-*Elegant riverside city, wine country on tap, then push on to Paris and keep moving — no backtracking.*
+*Elegant riverside city, wine country on tap, Europe's tallest dune by dune buggy, then push on to Paris and keep moving — no backtracking.*
 
 **STAY:** Bordeaux — The People Hostel or Hostel 20 in Chartrons, private double, €28/night. Paris (or just outside) — €25/night. Book: booking.com / hostelworld.com by Sept 1\.
 
@@ -56,7 +56,7 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 | :---- | :---- | :---- | :---- | :---- |
 | **4** | **Oct 1 (Thu)** | Travel — Lisbon → Bordeaux | Train Lisbon → Porto → into Spain → Bordeaux (Eurail; seat reservations \~€35 total on high-speed legs). Long day, likely an overnight stop en route. | €35 res. \+ €15 food |
 | **5** | **Oct 2 (Fri)** | Bordeaux — market day | Arrive, check in. Marché des Capucins morning market — oysters, cheese, produce, breakfast among the stalls. Miroir d'Eau and Place de la Bourse, Rue Sainte-Catherine, Chartrons district in the afternoon. | €20 food |
-| **6** | **Oct 3 (Sat)** | Bordeaux — city day | Second full day in town: Chartrons, more of Marché des Capucins or a canelé crawl, riverside walk. Do laundry, pack. | €5 laundry \+ €20 food |
+| **6** | **Oct 3 (Sat)** | Dune buggy — Dune du Pilat | Train to Arcachon/La Teste-de-Buch (\~1 hr). Guided dune buggy tour through the Landes forest and dunes, \~2 hrs, €90 (local operator). Climb Dune du Pilat after, free. Do laundry back in Bordeaux, pack. | €90 buggy \+ €10 train \+ €5 laundry \+ €20 food |
 | **7** | **Oct 4 (Sun)** | Bordeaux → Paris | One-way TGV Bordeaux → Paris, \~2 hrs (Eurail reservation). Drop bags at a cheap hostel in/near Paris, then a full day: Eiffel Tower, Seine walk, Champs-Élysées, Louvre exterior. | €20 res. \+ €25 food |
 
 **SHOPPING:** Cannelés (local pastry) from a bakery in Bordeaux. A market tote and local cheese from Marché des Capucins. A small Paris souvenir from a Montmartre-style stall.
@@ -71,10 +71,11 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 
 | \# | Date | Location | Plan | Cost (your share) |
 | :---- | :---- | :---- | :---- | :---- |
-| **8** | **Oct 5 (Mon)** | Bremen → Herford → Baden-Baden — SPA | Morning train from paris, \~ (Eurail): Packsize Herford office visit — quick stop, second tax write-off. Afternoon train Herford → Baden-Baden, \~4.5 hrs. Evening: Caracalla Spa — 3 hrs, 18–38°C indoor/outdoor thermal pools \+ sauna, €29 (caracalla.eu, open to 10 PM, walk-in). |  |
-| **9** | **Oct 6 (Tue)** | Bremen — arrive | Arrive evening, check in. Low-key: Schnoor quarter at night, a local brewery. | €15 food |
-| **10** | **Oct 7 (Wed)** | Bremen | Wander and relax: Schnoor quarter by day, Weser riverbank, Böttcherstraße. Intentionally low-key — the breath between adrenaline legs. Catch up with your friend. | €20 food |
-| **11** | **Oct 8 (Wed)** | Bremen |  | €29 spa \+ €20 food |
+| **8** | **Oct 5 (Mon)** | Harford \- Packsize | Morning train from paris, \~ (Eurail): Packsize Herford office visit tax write off  |  |
+| **9** | **Oct 6 (Tue)** | Baden- Baden \- explore  | Afternoon train Herford → Baden-Baden, \~4.5 hrs. Evening: Caracalla Spa — 3 hrs, 18–38°C indoor/outdoor thermal pools \+ sauna, €29 (caracalla.eu, open to 10 PM, walk-in). | €15 food |
+| **10** | **Oct 7 (Wed)** | Baden-Baden — SPA | Spa day  | €20 food |
+| **11** | **Oct 8 (thurs)** | Bremen | Wander and relax: Schnoor quarter by day, Weser riverbank, Böttcherstraße. Intentionally low-key — the breath between adrenaline legs. Catch up with your friend. | €29 spa \+ €20 food |
+| **12** | **Oct 9 (friday)** | bremen | Explore with Anton |  |
 
 **SHOPPING:** Black Forest ham and bread from a deli for tomorrow's train. A small Badische wine.
 
@@ -82,15 +83,14 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 
 # **Switzerland — Interlaken, 3 Nights**
 
-*Turquoise water under limestone walls — a lake you walk to, not swing over. Gondola up from Kandersteg, then the trail around Oeschinensee.*
+*You drop 90 metres on a rope and hit 120 km/h swinging through a glacier canyon. Then a valley with 72 waterfalls, one of them thundering inside the mountain.*
 
 **STAY:** Alplodge or Happy Inn Lodge, private double, €55/night. Book: booking.com ASAP. Iron rule: Migros/Coop supermarket for every meal.
 
 | \# | Date | Location | Plan | Cost (your share) |
 | :---- | :---- | :---- | :---- | :---- |
-| **12** | **Oct 9 (Fri)** | OESCHINENSEE HIKE | Train Interlaken → Spiez → Kandersteg (\~1 hr, Eurail). Walk 10–15 min to the gondola. Ride up, then hike ~25 min down to the lake and around the shore — turquoise water, limestone walls, picnic from Migros. Gondola return CHF 36 (oeschinensee.ch; late-season fare Sept 22–Nov 9). Back to Interlaken by evening. | CHF 36 gondola \+ 15 food |
-| **13** | **Oct 10 (Sat)** | Interlaken | Easy day after the hike: Aare riverbank, Höheweg, supermarket restock. Pack for the Venice train. | 15 food |
-| **14** | **Oct 11 (Sun)** | Venice — arrive | Arrive afternoon/evening, check in. Vaporetto down the Grand Canal at dusk, first cicchetti crawl in Dorsoduro. | €5 vaporetto \+ €20 food |
+| **13** | **Oct 10 (Sat)** | Lauterbrunnen or Oeschunensee lake hike  | Train 15 min. Valley-floor walk under 72 waterfalls, free. Trümmelbach Falls — lifts and tunnels to a waterfall inside the rock, CHF 14\. Back by evening, pack. Or Oeschunensee lake hike for tiktok bench  | CHF 14 \+ 12 train \+ 15 food |
+| **14** | **Oct 11 (Sun)** | Explore | Explore | €5 vaporetto \+ €20 food |
 
 **SHOPPING:** Swiss Army knife from a proper cutlery shop. One bar from Schuh chocolatier on Höheweg. That's it — this is not the shopping country.
 
@@ -196,7 +196,7 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 | :---- | :---- | :---- | :---- |
 | **Quinta da Regaleira, Sintra** | quintadaregaleira.pt online | €18 | $28 |
 | **Caracalla Spa 3 hrs, Baden-Baden** | caracalla.eu | €29 | $46 |
-| **Oeschinensee gondola, Kandersteg** | oeschinensee.ch — return, late season | CHF 36 | $64 |
+| **Trümmelbach Falls** | walk-in | CHF 14 | $25 |
 | **Venetian cooking class** | Trip advisor  | €95 | $149 |
 | **Venice traghetto** | on the canal | €2 | $3 |
 | **Tandem paragliding, Soča Valley** | socarafting.si — book ahead | €110 | $173 |
@@ -206,7 +206,7 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 | **Blue Cave \+ 5 Islands, Split** | Trip advisor  | €125 | $196 |
 | **Széchenyi Baths, Budapest** | szechenyibath.hu — Mon fast-track | €39 | $61 |
 | **Pálvölgyi cave tour, Budapest** | palvolgyi-cave.hu | €10 | $16 |
-| **TOTAL ACTIVITIES** |  |  | $1,242 |
+| **TOTAL ACTIVITIES** |  |  | $1,203 |
 
 ## **Food & Drink**
 
@@ -263,11 +263,11 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 | :---- | :---- |
 | **Flights** | $1,800 |
 | **Accommodation (30 nights)** | $1,558 |
-| **Activities** | $1,242 |
+| **Activities** | $1,203 |
 | **Food & drink (30 days)** | $1,313 |
 | **Ground transport** | $934 |
 | **Admin & essentials** | $345 |
-| **GRAND TOTAL** | $7,192 |
+| **GRAND TOTAL** | $7,153 |
 
 *For reference, the prior full 30-day all-in was $8,087 CAD — this route lands close to the top of the $5–7k target range.*
 
@@ -275,7 +275,7 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 
 **1\.** Book all remaining hostels (Lisbon, Bordeaux, Paris, Bremen, Baden-Baden, Interlaken, Venice, Bovec, Pula, Split, Budapest) by Sept 1\.
 
-**2\.** Book paragliding (Bovec) ASAP — weather-dependent and sells out. Check Oeschinensee gondola hours for Oct 9 (oeschinensee.ch).
+**2\.** Book Canyon Swing (Interlaken) and paragliding (Bovec) ASAP — both weather-dependent and sell out.
 
 **3\.** Book Blue Cave \+ 5 Islands (Split) ahead of arrival — confirm 48 hrs out, weather-dependent.
 
