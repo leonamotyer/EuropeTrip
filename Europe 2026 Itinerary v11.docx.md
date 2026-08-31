@@ -41,6 +41,7 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 | **1** | **Sept 28 (Mon)** | Lisbon — arrive | Land \~10 PM. Metro/Uber to hostel (\~€8 split). Sleep — tomorrow starts at sunrise. | €8 transit |
 | **2** | **Sept 29 (Tue)** | Lisbon — market day | Time Out Market for breakfast/lunch grazing, then Mercado de Campo de Ourique or the Feira da Ladra flea market (Tue/Sat only). Miradouro da Graça at sunrise, Alfama lanes, Tram 28\. 6–7 PM: €1 tacos happy hour at Tacos La Malquerida. Sunset at Miradouro de Santa Catarina. | €25 food \+ market |
 | **3** | **Sept 30 (Wed)** | Sintra day trip | Early train to Sintra (40 min). Quinta da Regaleira at opening — the Initiation Well, tunnels, towers; €18 online ticket, first slot beats crowds. Explore Sintra's old town, back to Lisbon by evening. | €18 \+ €6 train \+ €15 food |
+| **4**  | **Oct 1 (Thurs)** | Explore | Explore  |  |
 
 **SHOPPING:** Handpainted ceramic tiles and cork goods from Feira da Ladra. Pastéis de nata from Pastéis de Belém for the road. Medronho spirit from a market vendor.
 
@@ -54,10 +55,10 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 
 | \# | Date | Location | Plan | Cost (your share) |
 | :---- | :---- | :---- | :---- | :---- |
-| **4** | **Oct 1 (Thu)** | Travel — Lisbon → Bordeaux | Train Lisbon → Porto → into Spain → Bordeaux (Eurail; seat reservations \~€35 total on high-speed legs). Long day, likely an overnight stop en route. | €35 res. \+ €15 food |
-| **5** | **Oct 2 (Fri)** | Bordeaux — market day | Arrive, check in. Marché des Capucins morning market — oysters, cheese, produce, breakfast among the stalls. Miroir d'Eau and Place de la Bourse, Rue Sainte-Catherine, Chartrons district in the afternoon. | €20 food |
-| **6** | **Oct 3 (Sat)** | Dune buggy — Dune du Pilat | Train to Arcachon/La Teste-de-Buch (\~1 hr). Guided dune buggy tour through the Landes forest and dunes, \~2 hrs, €90 (local operator). Climb Dune du Pilat after, free. Do laundry back in Bordeaux, pack. | €90 buggy \+ €10 train \+ €5 laundry \+ €20 food |
-| **7** | **Oct 4 (Sun)** | Bordeaux → Paris | One-way TGV Bordeaux → Paris, \~2 hrs (Eurail reservation). Drop bags at a cheap hostel in/near Paris, then a full day: Eiffel Tower, Seine walk, Champs-Élysées, Louvre exterior. | €20 res. \+ €25 food |
+| **5** | **Oct 2 (Fri)** | Travel — Lisbon → Bordeaux | Train Lisbon → Porto → into Spain → Bordeaux (Eurail; seat reservations \~€35 total on high-speed legs). Long day, likely an overnight stop en route. | €35 res. \+ €15 food |
+| **6** | **Oct 3 (Sat)** | Bordeaux — market day | Arrive, check in. Marché des Capucins morning market — oysters, cheese, produce, breakfast among the stalls. Miroir d'Eau and Place de la Bourse, Rue Sainte-Catherine, Chartrons district in the afternoon. | €20 food |
+| **7** | **Oct 4 (Sun)** | Explore/ Laundry  | explore . Do laundry back in Bordeaux, pack. | €90 buggy \+ €10 train \+ €5 laundry \+ €20 food |
+| **8** | **Oct 5 (Mon)** | Bordeaux → Paris | One-way TGV Bordeaux → Paris, \~2 hrs (Eurail reservation). Drop bags at a cheap hostel in/near Paris, then a full day: Eiffel Tower, Seine walk, Champs-Élysées, Louvre exterior. | €20 res. \+ €25 food |
 
 **SHOPPING:** Cannelés (local pastry) from a bakery in Bordeaux. A market tote and local cheese from Marché des Capucins. A small Paris souvenir from a Montmartre-style stall.
 
@@ -71,9 +72,8 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 
 | \# | Date | Location | Plan | Cost (your share) |
 | :---- | :---- | :---- | :---- | :---- |
-| **8** | **Oct 5 (Mon)** | Harford \- Packsize | Morning train from paris, \~ (Eurail): Packsize Herford office visit tax write off  |  |
-| **9** | **Oct 6 (Tue)** | Baden- Baden \- explore  | Afternoon train Herford → Baden-Baden, \~4.5 hrs. Evening: Caracalla Spa — 3 hrs, 18–38°C indoor/outdoor thermal pools \+ sauna, €29 (caracalla.eu, open to 10 PM, walk-in). | €15 food |
-| **10** | **Oct 7 (Wed)** | Baden-Baden — SPA | Spa day  | €20 food |
+| **9** | **Oct 6 (Tue)** | Baden- Baden \- explore  | Morning train from paris, \~ (Eurail): Packsize Herford office visit tax write off  | €15 food |
+| **10** | **Oct 7 (Wed)** | Baden-Baden — SPA | Afternoon train Herford → Baden-Baden, \~4.5 hrs. Evening: Caracalla Spa — 3 hrs, 18–38°C indoor/outdoor thermal pools \+ sauna, €29 (caracalla.eu, open to 10 PM, walk-in). | €20 food |
 | **11** | **Oct 8 (thurs)** | Bremen | Wander and relax: Schnoor quarter by day, Weser riverbank, Böttcherstraße. Intentionally low-key — the breath between adrenaline legs. Catch up with your friend. | €29 spa \+ €20 food |
 | **12** | **Oct 9 (friday)** | bremen | Explore with Anton |  |
 
@@ -90,7 +90,7 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 | \# | Date | Location | Plan | Cost (your share) |
 | :---- | :---- | :---- | :---- | :---- |
 | **13** | **Oct 10 (Sat)** | Lauterbrunnen or Oeschunensee lake hike  | Train 15 min. Valley-floor walk under 72 waterfalls, free. Trümmelbach Falls — lifts and tunnels to a waterfall inside the rock, CHF 14\. Back by evening, pack. Or Oeschunensee lake hike for tiktok bench  | CHF 14 \+ 12 train \+ 15 food |
-| **14** | **Oct 11 (Sun)** | Explore | Explore | €5 vaporetto \+ €20 food |
+| **14** | **Oct 11 (Sun)** | Explore  | Explore  | €5 vaporetto \+ €20 food |
 
 **SHOPPING:** Swiss Army knife from a proper cutlery shop. One bar from Schuh chocolatier on Höheweg. That's it — this is not the shopping country.
 
@@ -104,7 +104,7 @@ Route: Portugal → France → Germany → Switzerland → Italy (Venice) → Sl
 
 | \# | Date | Location | Plan | Cost (your share) |
 | :---- | :---- | :---- | :---- | :---- |
-| **15** | **Oct 12 (Mon)** | Venice | St. Mark's Square, Rialto Bridge and market, get lost in the Cannaregio backstreets. Traghetto across the canal for a euro. | €2 traghetto \+ €20 food |
+| **15** | **Oct 12 (Mon)** | Venice \-arrive  | St. Mark's Square, Rialto Bridge and market, get lost in the Cannaregio backstreets. Traghetto across the canal for a euro. | €2 traghetto \+ €20 food |
 | **16** | **Oct 13 (Tue)** | COOKING CLASS(booked on trip advisor) | Morning free — Burano's colorful houses (vaporetto day trip) or sleep in. Afternoon/evening: small-group Venetian cooking class — cicchetti and fresh pasta with a local cook, \~3 hrs, €95 (cesarine.com). | €95 class \+ €15 food |
 | **17** | **Oct 14 (Wed)** | Venice | Slow last day — Peggy Guggenheim Collection or another cicchetti crawl, revisit a favourite spot, last gondola-free wander. Pack, do laundry. | €14 museum \+ €5 laundry \+ €20 food |
 
