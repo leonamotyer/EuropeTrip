@@ -100,7 +100,7 @@ export const trip = {
           weekday: "Sun",
           title: "Explore / laundry",
           plan: "Explore. Laundry in Bordeaux, pack.",
-          cost: "€90 buggy + €10 train + €5 laundry + €20 food",
+          cost: "€10 train + €5 laundry + €20 food",
           tag: "day",
         },
         {
