@@ -493,13 +493,6 @@ button {
   margin: 0 0 6px;
 }
 
-.loading,
-.error {
-  text-align: center;
-  padding: 20vh 0;
-  color: var(--muted);
-}
-
 @media (max-width: 900px) {
   .units {
     grid-template-columns: repeat(2, minmax(0, 1fr));

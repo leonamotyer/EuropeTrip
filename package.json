@@ -3,21 +3,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently -n server,client -c cyan,magenta \"node server/index.js\" \"vite\"",
-    "dev:server": "node server/index.js",
-    "dev:client": "vite",
+    "dev": "vite",
     "build": "vite build",
-    "start": "node server/index.js"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
-    "concurrently": "^9.1.2",
     "vite": "^6.0.11"
   }
 }
