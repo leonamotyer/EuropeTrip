@@ -104,7 +104,7 @@ export const trip = {
           n: 3,
           weekday: "Sat",
           title: "Lisbon → Madrid",
-          plan: "Lisboa Oriente 12:39 → Madrid Atocha 22:46. Overnight Madrid.",
+          plan: "Lisboa Oriente 12:39 → Madrid-Atocha Cercanias 22:26 via Entroncamento + Badajoz. Overnight Madrid.",
           cost: "from €13.50 res. + €15 food",
           tag: "travel",
         },

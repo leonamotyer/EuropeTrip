@@ -6,9 +6,36 @@ function changeNote(count) {
   return `${count} changes`;
 }
 
-function resNote(reservation) {
-  if (!reservation) return "";
-  return ` · res ${reservation}`;
+function transferNote(leg) {
+  if (!leg.transfers?.length) return changeNote(leg.changes);
+  const places = leg.transfers.map((t) => t.at).join(", ");
+  return `${changeNote(leg.changes)} at ${places}`;
+}
+
+function seatLabel({ reservation, cost }) {
+  if (!reservation && !cost) return "";
+  if (reservation && cost) return `Seat ${reservation} · ${cost}`;
+  if (reservation) return `Seat ${reservation}`;
+  return `Seat ${cost}`;
+}
+
+function seatTotal(leg) {
+  const priced = (leg.segments ?? []).filter((s) => s.cost);
+  if (!priced.length) {
+    return seatLabel(leg);
+  }
+  if (priced.length === 1) {
+    return seatLabel(priced[0]);
+  }
+  const bits = priced.map((s) => s.cost.replace(/^from\s+/i, ""));
+  return `Seats ${bits.join(" + ")}`;
+}
+
+function SeatBadge({ reservation, cost }) {
+  const label = seatLabel({ reservation, cost });
+  if (!label) return null;
+  const tone = reservation === "required" ? "is-required" : reservation ? "is-optional" : "";
+  return <span className={`rail-seat ${tone}`.trim()}>{label}</span>;
 }
 
 function monthLabel(iso) {
@@ -104,17 +131,35 @@ function overnightNotes(journey) {
   return notes;
 }
 
+/** Door-to-door time from first depart to last arrive. */
+function journeyDuration(journey) {
+  const first = journey.legs[0];
+  const last = journey.legs[journey.legs.length - 1];
+  const days = dayOffset(first.departIso, last.arriveIso);
+  const minutes = toMinutes(last.arrive) - toMinutes(first.depart) + days * 24 * 60;
+  return formatWait(Math.max(0, minutes));
+}
+
+function DurationBadge({ label }) {
+  if (!label) return null;
+  return <span className="rail-duration">{label}</span>;
+}
+
 function summary(journey) {
   const nights = overnightNotes(journey);
   const nightBit = nights.length ? ` · ${nights.join(" · ")}` : "";
 
   if (journey.legs.length === 1) {
     const [leg] = journey.legs;
-    return `${leg.duration} · ${changeNote(leg.changes)}${resNote(leg.reservation)}${leg.cost ? ` · ${leg.cost}` : ""}${nightBit}`;
+    const seats = seatTotal(leg);
+    return `${transferNote(leg)}${seats ? ` · ${seats}` : ""}${nightBit}`;
   }
+  const legHours = journey.legs.map((leg) => leg.duration).join(" + ");
   const hops = `${journey.legs.length} trains`;
   const via = journey.via.length ? ` · via ${journey.via.join(", ")}` : "";
-  return `${hops}${via}${nightBit}`;
+  const seats = journey.legs.map(seatTotal).filter(Boolean);
+  const seatBit = seats.length ? ` · ${seats.join(" · ")}` : "";
+  return `${legHours} · ${hops}${via}${seatBit}${nightBit}`;
 }
 
 function NextTrainBadge({ wait }) {
@@ -129,6 +174,48 @@ function NextTrainBadge({ wait }) {
   );
 }
 
+function TrainSegments({ leg }) {
+  const segments = leg.segments ?? [];
+  const transfers = leg.transfers ?? [];
+  if (!segments.length) return null;
+
+  return (
+    <ol className="rail-segments">
+      {segments.map((segment, index) => (
+        <li key={`${segment.from}-${segment.depart}`}>
+          {index > 0 && transfers[index - 1] ? (
+            <p
+              className={`rail-change${transfers[index - 1].short ? " is-short" : ""}`}
+            >
+              Change at <strong>{transfers[index - 1].at}</strong>
+              <span>{transfers[index - 1].wait}</span>
+              {transfers[index - 1].short ? <em>Short transfer</em> : null}
+            </p>
+          ) : null}
+          <div className="rail-segment">
+            <span className="rail-segment-route">
+              <strong>
+                {segment.from} → {segment.to}
+              </strong>
+              <em>{segment.train || "Train"}</em>
+              <DurationBadge label={segment.duration} />
+              <SeatBadge reservation={segment.reservation} cost={segment.cost} />
+            </span>
+            <span className="rail-times">
+              <time>{segment.depart}</time>
+              <span aria-hidden="true">→</span>
+              <time>
+                {segment.arrive}
+                {segment.arriveNextDay ? <small>+1</small> : null}
+              </time>
+            </span>
+          </div>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
 export default function TrainBoard({ journeys }) {
   const [openId, setOpenId] = useState(null);
 
@@ -136,7 +223,7 @@ export default function TrainBoard({ journeys }) {
     <section className="rail" aria-label="Train timetable">
       <header className="rail-head">
         <span>Rail</span>
-        <span>Tap a route · next-train times on each</span>
+        <span>Tap a route · changes listed inside</span>
       </header>
       <ul className="rail-list">
         {journeys.map((journey, journeyIndex) => {
@@ -162,6 +249,7 @@ export default function TrainBoard({ journeys }) {
                   <strong>
                     {journey.from} → {journey.to}
                   </strong>
+                  <DurationBadge label={journeyDuration(journey)} />
                   <em>{summary(journey)}</em>
                   <NextTrainBadge wait={afterJourney} />
                 </span>
@@ -195,14 +283,22 @@ export default function TrainBoard({ journeys }) {
                             <strong>
                               {leg.from} → {leg.to}
                             </strong>
+                            <DurationBadge label={leg.duration} />
                             <em>
-                              {leg.duration} · {changeNote(leg.changes)}
-                              {resNote(leg.reservation)}
-                              {leg.cost ? ` · ${leg.cost}` : ""}
+                              {transferNote(leg)}
                               {leg.arriveNextDay || dayOffset(leg.departIso, leg.arriveIso) > 0
                                 ? " · overnight train"
                                 : ""}
                             </em>
+                            {seatTotal(leg) ? (
+                              <span
+                                className={`rail-seat${
+                                  leg.reservation === "required" ? " is-required" : ""
+                                }`}
+                              >
+                                {seatTotal(leg)}
+                              </span>
+                            ) : null}
                             <NextTrainBadge wait={afterLeg} />
                           </span>
                           <span className="rail-times">
@@ -214,6 +310,7 @@ export default function TrainBoard({ journeys }) {
                             </time>
                           </span>
                         </div>
+                        <TrainSegments leg={leg} />
                       </li>
                     );
                   })}

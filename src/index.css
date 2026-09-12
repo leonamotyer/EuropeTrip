@@ -690,6 +690,51 @@ button {
   border-style: dashed;
 }
 
+.rail-duration {
+  display: inline-flex;
+  align-items: baseline;
+  margin-top: 4px;
+  width: fit-content;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: #121820;
+  color: var(--cream);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+}
+
+.rail-seat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-top: 4px;
+  width: fit-content;
+  padding: 2px 8px;
+  border: 1px solid rgba(215, 163, 90, 0.45);
+  border-radius: 3px;
+  background: rgba(215, 163, 90, 0.1);
+  color: var(--gold);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  line-height: 1.35;
+}
+
+.rail-seat.is-required {
+  border-color: rgba(196, 92, 38, 0.55);
+  background: rgba(196, 92, 38, 0.12);
+  color: #e8b089;
+}
+
+.rail-seat.is-optional {
+  border-color: var(--line);
+  background: #121820;
+  color: var(--muted);
+}
+
 .rail-times {
   display: flex;
   align-items: baseline;
@@ -759,6 +804,79 @@ button {
   font-style: normal;
   font-size: 0.72rem;
   color: var(--muted);
+}
+
+.rail-segments {
+  list-style: none;
+  margin: 4px 0 8px;
+  padding: 0 0 0 8px;
+  border-left: 1px solid var(--line);
+}
+
+.rail-segments > li {
+  padding: 0;
+}
+
+.rail-change {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  margin: 8px 0 6px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: #161c26;
+  color: var(--gold);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+}
+
+.rail-change strong {
+  color: var(--cream);
+  font-weight: 500;
+}
+
+.rail-change em {
+  font-style: normal;
+  color: var(--rust);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.6rem;
+}
+
+.rail-change.is-short {
+  border: 1px solid rgba(196, 92, 38, 0.45);
+}
+
+.rail-segment {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  padding: 6px 0 6px 10px;
+}
+
+.rail-segment-route {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.rail-segment-route strong {
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.rail-segment-route em {
+  font-style: normal;
+  font-size: 0.68rem;
+  color: var(--muted);
+}
+
+.rail-segment .rail-times {
+  font-size: 0.92rem;
 }
 
 .foot {
