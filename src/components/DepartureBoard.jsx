@@ -38,7 +38,37 @@ function CalendarMonth({ leg }) {
     <div className="cal">
       <div className="cal-meta">
         <p className="cal-month">{leg.month}</p>
-        <p className="cal-stay">{leg.stay}</p>
+        <ul className="cal-stays">
+          {(leg.stays ?? []).map((stay) => (
+            <li key={stay.name} className="cal-stay-row">
+              <p className="cal-stay">
+                <strong>{stay.name}</strong>
+                {stay.detail ? ` · ${stay.detail}` : ""}
+              </p>
+              <span className="cal-map-links">
+                <a
+                  className="cal-map"
+                  href={stay.mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Hostel
+                </a>
+                {stay.transit ? (
+                  <a
+                    className="cal-map"
+                    href={stay.transit.mapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={stay.transit.name}
+                  >
+                    Station
+                  </a>
+                ) : null}
+              </span>
+            </li>
+          ))}
+        </ul>
         <p className="cal-shop">
           <strong>Buy: </strong>
           {leg.shopping}

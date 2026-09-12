@@ -412,12 +412,69 @@ button {
   margin: 0 0 6px;
 }
 
+.cal-stays {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+}
+
+.cal-stay-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 .cal-stay,
 .cal-shop {
   margin: 0 0 4px;
   color: var(--muted);
   font-size: 0.84rem;
   line-height: 1.4;
+}
+
+.cal-stay {
+  margin: 0;
+  flex: 1;
+}
+
+.cal-stay strong {
+  color: var(--cream);
+  font-weight: 500;
+}
+
+.cal-map-links {
+  flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: flex-end;
+}
+
+.cal-map {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 28px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--panel-2);
+  color: var(--gold);
+  text-decoration: none;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.cal-map:hover,
+.cal-map:focus-visible {
+  border-color: var(--gold);
+  outline: none;
 }
 
 .cal-shop strong {
@@ -598,6 +655,39 @@ button {
   font-style: normal;
   font-size: 0.74rem;
   color: var(--muted);
+}
+
+.rail-next {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-top: 4px;
+  width: fit-content;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: #121820;
+  color: var(--gold);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+}
+
+.rail-next em {
+  font-style: normal;
+  color: var(--muted);
+  font-size: inherit;
+}
+
+.rail-next.is-overnight {
+  border-color: rgba(196, 92, 38, 0.55);
+  color: var(--rust);
+}
+
+.rail-next.is-last {
+  color: var(--muted);
+  border-style: dashed;
 }
 
 .rail-times {

@@ -22,7 +22,14 @@ export const trip = {
       month: "September 2026",
       note: "Time Out Market, Alfama, Tram 28. Sintra + Initiation Well.",
       highlight: "Pastéis de nata for the road",
-      stay: "Yes! Lisbon Hostel or Good Morning Hostel, private double, €35/night your share.",
+      stays: [
+        {
+          name: "Goodnight Hostel",
+          detail: "Rua dos Correeiros 113 · private double, €35/night your share.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Goodnight+Hostel,+Rua+dos+Correeiros+113,+Lisbon",
+        },
+      ],
       shopping: "Tiles and cork from Feira da Ladra. Pastéis de Belém. Medronho.",
       days: [
         {
@@ -82,7 +89,14 @@ export const trip = {
       month: "October 2026",
       note: "Marché des Capucins, laundry day, then TGV to Paris.",
       highlight: "Oysters at Marché des Capucins",
-      stay: "Bordeaux: one night Oct 4 after 19:54 arrival. Paris is a day between trains — bag drop if you want.",
+      stays: [
+        {
+          name: "Coeur de Bastide",
+          detail: "Bordeaux · one night Oct 4 after 19:54 arrival.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Coeur+de+Bastide,+15+Rue+du+G%C3%A9n%C3%A9ral+du+Cheyron,+Bordeaux",
+        },
+      ],
       shopping: "Cannelés, market tote + cheese from Capucins, small Paris stall souvenir.",
       days: [
         {
@@ -124,7 +138,20 @@ export const trip = {
       month: "October 2026",
       note: "Packsize Herford, Caracalla Spa, then Bremen with Anton.",
       highlight: "2,000-year thermal water",
-      stay: "Bremen: Generator (a&o backup), €25/night. Baden-Baden: hostel near Caracalla, €30/night. Night train Oct 10.",
+      stays: [
+        {
+          name: "Hotel Neuer Karlshof",
+          detail: "Baden-Baden.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Hotel+Neuer+Karlshof+Baden-Baden",
+        },
+        {
+          name: "MEININGER Bremen Hauptbahnhof",
+          detail: "Bremen.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=MEININGER+Hotel+Bremen+Hauptbahnhof",
+        },
+      ],
       shopping: "Black Forest ham and bread for the train. A small Badische wine.",
       days: [
         {
@@ -184,7 +211,14 @@ export const trip = {
       month: "October 2026",
       note: "Cicchetti crawl, Burano, Venetian pasta class.",
       highlight: "Cooking class booked",
-      stay: "Generator Venice or Anda Venice, private double, €40/night.",
+      stays: [
+        {
+          name: "Hotel Ariston",
+          detail: "Mestre · Via Guido Bergamo 12.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Hotel+Ariston,+Via+Guido+Bergamo+12,+Mestre,+Venice",
+        },
+      ],
       shopping: "Murano glass pendant, pasta stamp, Cannaregio carnival mask.",
       days: [
         {
@@ -226,7 +260,14 @@ export const trip = {
       month: "October 2026",
       note: "Old town, castle, Ljubljanica river. Three nights in the capital.",
       highlight: "Castle over the river",
-      stay: "Central Ljubljana hostel, private double, €28/night.",
+      stays: [
+        {
+          name: "Hostel Vila Veselova",
+          detail: "Veselova ulica 14 · private double, €28/night.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Hostel+Vila+Veselova,+Veselova+ulica+14,+Ljubljana",
+        },
+      ],
       shopping: "Dragon souvenirs, Central Market honey and žganje, a small bottle of Cviček.",
       days: [
         {
@@ -268,7 +309,20 @@ export const trip = {
       month: "October 2026",
       note: "Pula Arena, Rovinj, Brijuni, Blue Cave + five islands.",
       highlight: "Speedboat into electric-blue cave",
-      stay: "Pula: hostel near the Arena through Oct 21. Split: En Route Hostel Oct 22–24. Zagreb overnight Oct 25.",
+      stays: [
+        {
+          name: "Apartments Ingrid",
+          detail: "Pula · Prostinske Bune 29 · through Oct 21.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Apartments+Ingrid,+Prostinske+Bune+29,+Pula",
+        },
+        {
+          name: "Split Backpackers",
+          detail: "Kralja Zvonimira 17 · Oct 22–24.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Hostel+Split+Backpackers,+Kralja+Zvonimira+17,+Split",
+        },
+      ],
       shopping: "Istrian olive oil + truffle. Rovinj ceramics. Split Green Market: rakija, figs, lavender, lace.",
       days: [
         {
@@ -346,7 +400,25 @@ export const trip = {
       month: "October 2026",
       note: "Szimpla Kert, Széchenyi Baths, Pálvölgyi cave. 8 AM flight home.",
       highlight: "Ruin bars + thermal baths",
-      stay: "Zagreb overnight Oct 25. Budapest 7th district hostel from Oct 26, private double, €35/night.",
+      stays: [
+        {
+          name: "Zagreb overnight (TBD)",
+          detail: "Oct 25.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Zagreb+hostel+placeholder",
+        },
+        {
+          name: "Hostel Maverick Athenaeum",
+          detail: "Budapest from Oct 26 · nearest metro Blaha Lujza tér (M2).",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Hostel+Maverick+Athenaeum,+R%C3%A1k%C3%B3czi+%C3%BAt+54,+Budapest",
+          transit: {
+            name: "Blaha Lujza tér (M2)",
+            mapsUrl:
+              "https://www.google.com/maps/search/?api=1&query=Blaha+Lujza+t%C3%A9r+metro+station+Budapest",
+          },
+        },
+      ],
       shopping: "Paprika and Tokaji from Great Market Hall. Herend porcelain if budget allows.",
       days: [
         {
