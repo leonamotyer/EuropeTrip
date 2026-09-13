@@ -98,10 +98,10 @@ export const trip = {
             "https://www.google.com/maps/search/?api=1&query=Madrid+Airbnb+address+TBD",
         },
         {
-          name: "Coeur de Bastide",
-          detail: "Bordeaux · one night Oct 4 after 19:54 arrival.",
+          name: "hotelF1 Bordeaux Ville",
+          detail: "50 Rue Émile Henriot, Quai de la Souys · one night Oct 4 after 19:54 arrival.",
           mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=Coeur+de+Bastide,+15+Rue+du+G%C3%A9n%C3%A9ral+du+Cheyron,+Bordeaux",
+            "https://www.google.com/maps/search/?api=1&query=hotelF1+Bordeaux+Ville,+50+Rue+Emile+Henriot,+Bordeaux",
         },
       ],
       shopping: "Cannelés, market tote + cheese from Capucins, small Paris stall souvenir.",
@@ -120,7 +120,7 @@ export const trip = {
           n: 4,
           weekday: "Sun",
           title: "Madrid → Bordeaux",
-          plan: "Atocha 07:27 → Bordeaux St Jean 19:54. Evening check-in Coeur de Bastide.",
+          plan: "Atocha 07:27 → Bordeaux St Jean 19:54. Evening check-in hotelF1 Bordeaux Ville.",
           cost: "from €24 res. + €15 food",
           tag: "travel",
         },
