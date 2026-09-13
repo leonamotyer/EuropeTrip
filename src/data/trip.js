@@ -91,6 +91,12 @@ export const trip = {
       highlight: "Oysters at Marché des Capucins",
       stays: [
         {
+          name: "Madrid Airbnb (booked)",
+          detail: "Overnight Oct 3 · address coming soon.",
+          mapsUrl:
+            "https://www.google.com/maps/search/?api=1&query=Madrid+Airbnb+address+TBD",
+        },
+        {
           name: "Coeur de Bastide",
           detail: "Bordeaux · one night Oct 4 after 19:54 arrival.",
           mapsUrl:
@@ -104,7 +110,7 @@ export const trip = {
           n: 3,
           weekday: "Sat",
           title: "Lisbon → Madrid",
-          plan: "Lisboa Oriente 12:39 → Madrid-Atocha Cercanias 22:26 via Entroncamento + Badajoz. Overnight Madrid.",
+          plan: "Lisboa Oriente 12:39 → Madrid-Atocha Cercanias 22:26 via Entroncamento + Badajoz. Overnight Madrid Airbnb (booked — address soon).",
           cost: "from €13.50 res. + €15 food",
           tag: "travel",
         },
@@ -113,7 +119,7 @@ export const trip = {
           n: 4,
           weekday: "Sun",
           title: "Madrid → Bordeaux",
-          plan: "Atocha 07:27 → Bordeaux St Jean 19:54. Evening check-in.",
+          plan: "Atocha 07:27 → Bordeaux St Jean 19:54. Evening check-in Coeur de Bastide.",
           cost: "from €24 res. + €15 food",
           tag: "travel",
         },
@@ -205,7 +211,7 @@ export const trip = {
       id: "it",
       country: "Italy",
       city: "Venice",
-      dates: "Oct 10 – Oct 15",
+      dates: "Oct 11 – Oct 15",
       nights: 4,
       code: "VCE",
       month: "October 2026",
@@ -222,12 +228,21 @@ export const trip = {
       shopping: "Murano glass pendant, pasta stamp, Cannaregio carnival mask.",
       days: [
         {
+          iso: "2026-10-11",
+          n: 11,
+          weekday: "Sun",
+          title: "Arrive Venice",
+          plan: "Arth-Goldau 06:49 → Venezia S. Lucia 12:12. Check in Hotel Ariston (Mestre). Afternoon: St. Mark's, Rialto, get lost in Cannaregio. Traghetto across the canal for a euro.",
+          cost: "from €15 res. + €2 traghetto + €20 food",
+          tag: "travel",
+        },
+        {
           iso: "2026-10-12",
           n: 12,
           weekday: "Mon",
-          title: "Venice arrive",
-          plan: "St. Mark's Square, Rialto Bridge and market, get lost in Cannaregio. Traghetto across the canal for a euro.",
-          cost: "€2 traghetto + €20 food",
+          title: "Explore Venice",
+          plan: "Full day in Venice — islands, markets, or just wander. No rush after the night train.",
+          cost: "€20 food",
           tag: "day",
         },
         {

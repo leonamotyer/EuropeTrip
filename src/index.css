@@ -735,6 +735,41 @@ button {
   color: var(--muted);
 }
 
+.rail-map-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.rail-map {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 26px;
+  padding: 0 9px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--panel-2);
+  color: var(--sea);
+  text-decoration: none;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.rail-map:hover,
+.rail-map:focus-visible {
+  border-color: var(--sea);
+  outline: none;
+}
+
+.rail-change .rail-map {
+  margin-left: auto;
+}
+
 .rail-times {
   display: flex;
   align-items: baseline;
@@ -784,8 +819,38 @@ button {
   border-bottom: 1px dashed var(--line);
 }
 
-.rail-legs > li:last-child .rail-leg {
+button.rail-leg-toggle {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px dashed var(--line);
+  border-radius: 0;
+  padding: 8px 0;
+}
+
+button.rail-leg-toggle:hover,
+button.rail-leg-toggle.is-active {
+  background: rgba(28, 35, 46, 0.65);
+}
+
+.rail-legs > li.is-leg-open .rail-chevron {
+  transform: rotate(90deg);
+}
+
+.rail-legs > li:last-child .rail-leg,
+.rail-legs > li:last-child .rail-leg-toggle {
   border-bottom: 0;
+}
+
+.rail-leg-detail {
+  padding: 0 0 12px 8px;
+  border-left: 1px solid var(--line);
+  margin: 0 0 8px 4px;
+}
+
+.rail-leg-detail .rail-map-links {
+  margin: 0 0 8px 10px;
 }
 
 .rail-leg-route {
@@ -820,7 +885,7 @@ button {
 .rail-change {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
   margin: 8px 0 6px;
   padding: 6px 10px;
