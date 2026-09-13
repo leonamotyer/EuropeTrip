@@ -417,10 +417,10 @@ export const trip = {
       highlight: "Ruin bars + thermal baths",
       stays: [
         {
-          name: "Zagreb overnight (TBD)",
-          detail: "Oct 25.",
+          name: "Main Square Hostel",
+          detail: "Zagreb · Tkalčićeva 7 · overnight Oct 25.",
           mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=Zagreb+hostel+placeholder",
+            "https://www.google.com/maps/search/?api=1&query=Main+Square+Hostel,+Tkal%C4%8Di%C4%87eva+7,+Zagreb",
         },
         {
           name: "Hostel Maverick Athenaeum",
