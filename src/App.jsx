@@ -2,6 +2,7 @@ import { useState } from "react";
 import Countdown from "./components/Countdown.jsx";
 import DepartureBoard from "./components/DepartureBoard.jsx";
 import Sky from "./components/Sky.jsx";
+import FlightBoard from "./components/FlightBoard.jsx";
 import TrainBoard from "./components/TrainBoard.jsx";
 import { journeys } from "./data/trains.js";
 import { trip } from "./data/trip.js";
@@ -20,6 +21,9 @@ export default function App() {
           <p className="mast-route">
             {trip.flight} · {trip.landing}
           </p>
+          <p className="mast-route mast-route-home">
+            {trip.homeFlight} · {trip.homeLanding}
+          </p>
           <h1>{trip.title}</h1>
           <p className="mast-sub">{trip.subtitle}</p>
           <p className="mast-when">
@@ -35,12 +39,8 @@ export default function App() {
           onSelect={setSelectedId}
         />
 
+        <FlightBoard />
         <TrainBoard journeys={journeys} />
-
-        <footer className="foot">
-          <p>{trip.returnNote}</p>
-          <p>Flights booked · Eurail purchased · countdown locked to midnight Edmonton</p>
-        </footer>
       </main>
     </div>
   );

@@ -1,3 +1,4 @@
+import { flightsTouching } from "../data/flights.js";
 import { trainsTouching } from "../data/trains.js";
 
 const WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
@@ -23,6 +24,33 @@ function TrainTimes({ iso, trains }) {
             <span className="cal-train-route">
               {train.from} → {train.to}
             </span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
+function FlightTimes({ iso, flights }) {
+  if (!flights.length) return null;
+
+  return (
+    <ul className="cal-trains">
+      {flights.map((flight) => {
+        const arrivingOnly = flight.arriveIso === iso && flight.departIso !== iso;
+        const nextDay = flight.arriveIso && flight.departIso && flight.arriveIso !== flight.departIso;
+        const clock = arrivingOnly
+          ? flight.arrive
+            ? `Arrive ${flight.arrive}`
+            : "Arrive"
+          : [flight.depart, flight.arrive].filter(Boolean).join(" → ") + (nextDay ? " +1" : "");
+        const route = [flight.flight, `${flight.fromCode} → ${flight.toCode}`, flight.seat]
+          .filter(Boolean)
+          .join(" · ");
+        return (
+          <li key={flight.id}>
+            {clock ? <span className="cal-train-times">{clock}</span> : null}
+            <span className="cal-train-route">{route}</span>
           </li>
         );
       })}
@@ -85,17 +113,20 @@ function CalendarMonth({ leg }) {
         ))}
         {leg.days.map((day) => {
           const dayTrains = trainsTouching(day.iso);
-          const tag = dayTrains.length && day.tag !== "activity" ? "travel" : day.tag;
+          const dayFlights = flightsTouching(day.iso);
+          const onTransit = dayTrains.length + dayFlights.length > 0;
+          const tag = onTransit && day.tag !== "activity" ? "travel" : day.tag;
           return (
             <article
               key={day.iso}
-              className={`cal-day is-${tag}${dayTrains.length ? " has-train" : ""}`}
+              className={`cal-day is-${tag}${onTransit ? " has-train" : ""}`}
             >
               <header className="cal-day-head">
                 <span className="cal-day-dow">{day.weekday}</span>
                 <span className="cal-day-n">{day.n}</span>
               </header>
               <h4>{day.title}</h4>
+              <FlightTimes iso={day.iso} flights={dayFlights} />
               <TrainTimes iso={day.iso} trains={dayTrains} />
               <p>{day.plan}</p>
               <span className="cal-day-cost">{day.cost}</span>
@@ -112,7 +143,7 @@ export default function DepartureBoard({ legs, selectedId, onSelect }) {
     <section className="board" aria-label="Trip calendar">
       <header className="board-head">
         <span>Calendar</span>
-        <span>Sep 28 – Oct 28 · 2026</span>
+        <span>Sep 28 – Oct 29 · 2026</span>
       </header>
       <ul className="board-list">
         {legs.map((leg) => {
@@ -134,8 +165,9 @@ export default function DepartureBoard({ legs, selectedId, onSelect }) {
                 </span>
                 <span className="board-chips" aria-label={leg.dates}>
                   {leg.days.map((day) => {
-                    const onRail = trainsTouching(day.iso).length > 0;
-                    const tag = onRail && day.tag !== "activity" ? "travel" : day.tag;
+                    const onTransit =
+                      trainsTouching(day.iso).length + flightsTouching(day.iso).length > 0;
+                    const tag = onTransit && day.tag !== "activity" ? "travel" : day.tag;
                     return (
                       <span key={day.iso} className={`chip is-${tag}`}>
                         <em>{day.weekday.slice(0, 2)}</em>

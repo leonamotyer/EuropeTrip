@@ -65,6 +65,10 @@ button {
   text-transform: uppercase;
   font-size: 0.72rem;
   color: var(--gold);
+  margin: 0 0 8px;
+}
+
+.mast-route-home {
   margin: 0 0 12px;
 }
 
@@ -910,7 +914,8 @@ button.rail-leg-toggle.is-active {
   font-size: 0.6rem;
 }
 
-.rail-change.is-short {
+.rail-change.is-short,
+.rail-change.is-overnight {
   border: 1px solid rgba(196, 92, 38, 0.45);
 }
 
@@ -942,17 +947,6 @@ button.rail-leg-toggle.is-active {
 
 .rail-segment .rail-times {
   font-size: 0.92rem;
-}
-
-.foot {
-  margin-top: 28px;
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-
-.foot p {
-  margin: 0 0 6px;
 }
 
 @media (max-width: 900px) {
