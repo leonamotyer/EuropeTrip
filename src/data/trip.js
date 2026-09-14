@@ -92,10 +92,10 @@ export const trip = {
       highlight: "Oysters at Marché des Capucins",
       stays: [
         {
-          name: "Madrid Airbnb (booked)",
-          detail: "Overnight Oct 3 · address coming soon.",
+          name: "Hostel 165",
+          detail: "Calle del Doctor Esquerdo 165 · overnight Oct 3.",
           mapsUrl:
-            "https://www.google.com/maps/search/?api=1&query=Madrid+Airbnb+address+TBD",
+            "https://www.google.com/maps/search/?api=1&query=Hostel+165,+Calle+del+Doctor+Esquerdo+165,+Madrid",
         },
         {
           name: "hotelF1 Bordeaux Ville",
@@ -111,7 +111,7 @@ export const trip = {
           n: 3,
           weekday: "Sat",
           title: "Lisbon → Madrid",
-          plan: "Lisboa Oriente 12:39 → Madrid-Atocha Cercanias 22:26 via Entroncamento + Badajoz. Overnight Madrid Airbnb (booked — address soon).",
+          plan: "Lisboa Oriente 12:39 → Madrid-Atocha Cercanias 22:26 via Entroncamento + Badajoz. Overnight Hostel 165 (Calle del Doctor Esquerdo 165).",
           cost: "from €13.50 res. + €15 food",
           tag: "travel",
         },
